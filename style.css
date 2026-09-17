@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+    line-height: 1.6;
+    color: #222;
+}
+
+h1, h2, h3 {
+    color: #1a3a5c;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: width 0.3s ease; /* Плавна зміна розміру */
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.controls {
+    margin-top: 15px;
+}
+
+.controls button {
+    padding: 6px 12px;
+    margin-right: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+}
+
+.controls button:hover {
+    background-color: #e0e0e0;
+}
