@@ -16,7 +16,7 @@ img {
     height: auto;
     border-radius: 6px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.15);
-    transition: width 0.3s ease; /* Плавна зміна розміру */
+    transition: width 0.3s ease;
 }
 
 ul, ol {
